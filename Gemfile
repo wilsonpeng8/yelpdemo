@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 ruby '2.1.5'
 gem 'rails', '4.1.8'
 
-
+gem 'sqlite3' , group: :development
 gem 'sass-rails', '~> 4.0.3'
 
 gem 'uglifier', '>= 1.3.0'
@@ -24,6 +24,3 @@ gem 'spring',        group: :development
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
 
-group :development, :test do
-  gem "sqlite3", "~> 1.3.7", :require => "sqlite3"
-end
