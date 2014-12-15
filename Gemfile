@@ -16,6 +16,7 @@ gem 'turbolinks'
 
 gem 'carrierwave'
 gem 'fog'
+gem 'mini_magick'
 
 gem 'jbuilder', '~> 2.0'
 
